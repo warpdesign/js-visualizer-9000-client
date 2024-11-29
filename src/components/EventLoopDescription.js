@@ -13,7 +13,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 
-const eventLoopPsuedocode = `
+const eventLoopPseudocode = `
 while (EventLoop.waitForTask()) {
   const taskQueue = EventLoop.selectTaskQueue();
   if (taskQueue.hasNextTask()) {
@@ -99,9 +99,9 @@ const EventLoopDescription = ({
       </DialogContentText>
       <br />
       <DialogContentText>
-        Let's model the Event Loop with some JavaScript psuedocode:
+        Let's model the Event Loop with some JavaScript pseudocode:
         <pre style={{ fontSize: 14, marginLeft: 16 }}>
-          <code>{eventLoopPsuedocode}</code>
+          <code>{eventLoopPseudocode}</code>
         </pre>
       </DialogContentText>
     </DialogContent>
